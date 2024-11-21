@@ -33,11 +33,11 @@
 		color: black;
 	} nav a li:hover {
 		background:rgba(154,0,24,1.00);
-	} h1{
+	} h1 {
 		color: lavender;
 		text-align: center;
-		padding-top: 144px;
-		font: 48pt/1.4em 'Sour Gummy';
+		font: 36pt/1.4em 'Sour Gummy';
+		margin-top: 18px;
 	} table {
 		border-collapse: collapse;
 		width: 80%;
@@ -45,12 +45,15 @@
 		font: italic 18pt/1.4em Roboto;
 		background: gold;
 	} td, th {
-		padding: 12px 24px;
+		padding: 6px 24px;
 	} tr:nth-child(odd) {
 		background:  rgba(255,255,255,1.00);
 	} tr:nth-child(even) {
 		background:  rgba(255,255,255,0.80);
-	} 
+	} #location {
+		width: 80%;
+		margin: 0 auto;
+	}
 	
 </style>
 </head>
@@ -58,7 +61,7 @@
 <header>
 	<nav>
 	   <ul>
-		   <a href="birthday.html"><li>Home</li></a>
+		   <a href="index.html"><li>Home</li></a>
 		   <li>Schedule</li>
 		   <a href="about.html"><li>About</li></a>
       </ul>	
@@ -68,11 +71,17 @@
 	<table>
 	  <tr><th colspan="2">Schedule</th></tr>
 		<tr><td>Time</td><td>Activity</td></tr>
-		<tr><td>1.00</td><td>Gather for Party</td></tr>
-		<tr><td>2.00</td><td>Music Starts Playing</td></tr>
-		<tr><td>3.00</td><td>Buffet Opens</td></tr>
-		<tr><td>4.00</td><td>Birthday Cake</td></tr>
-		<tr><td>5.00</td><td>Wrap of the Party</td></tr>
+		<tr><td>1:00 PM</td><td>Gather for Party</td></tr>
+		<tr><td>2:00&nbsp;</td><td>Music Starts Playing</td></tr>
+		<tr><td>3:00</td><td>Buffet Opens</td></tr>
+		<tr><td>4:00</td><td>Birthday Cake</td></tr>
+		<tr><td>5:00</td><td>Wrap of the Party</td></tr>
 </table>
+	<div id="location">
+	<h1 style="color: white;">Event Location:</h1>
+	<p style="color: lavender; font: 14pt/1.4em 'Sour Gummy'; text-align: center;">Please be at the Resort World Hotel at 12 PM on Tuesday, November 26th</p>
+	<img src="72m1n0_large.png" width="400" height="auto" style="float: left; margin: 24px 0 0 0;" />
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12889.331581963574!2d-115.1676586!3d36.134107!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c40d424ec785%3A0x46f0f1df163094c4!2sResorts%20World%20Las%20Vegas!5e0!3m2!1sen!2sus!4v1732153419876!5m2!1sen!2sus" width="400" height="350" style="border: 0; float: right; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
 </body>
 </html>
